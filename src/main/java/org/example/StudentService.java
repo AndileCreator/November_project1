@@ -5,12 +5,12 @@ import java.util.List;
 
 public class StudentService {
 
-    private List<Student> student = new ArrayList<Student>();
+    private List<Student> students = new ArrayList<Student>();
 
     public List<Student> getAllStudents(){
-        return this.student;
+        return this.students;
     }
     public void addStudent(Student student){
-        this.student.add(student);
+        this.students.add(student);
     }
 }
